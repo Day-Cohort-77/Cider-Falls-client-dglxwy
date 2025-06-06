@@ -127,3 +127,5 @@ export const getGuests = () => {
 export const getServices = () => {
   return structuredClone(database.services);
 };
+
+//import getAreas where? to areas.js
