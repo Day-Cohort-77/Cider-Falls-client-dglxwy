@@ -24,25 +24,29 @@ export const servicesList = () => {
 document.addEventListener("click", (event) => {
   if (event.target.dataset.type === "service") {
     const serviceType = event.target.dataset.service;
-    let areas = getAreas();
-    let areaService = [];
-    for (const area of areas) {
-      if (area.id === parseInt(event.target.dataset.areaId))
-        
-        areaService.push(area.name);
-      if (areaService.length > 0;) {
-        window.alert(`${serviceType} is available in: ${areaService.join(', ')}`);
-        //window.alert(`${serviceType} is available in ${area.name}`)
+    const services = getServices();
+    const areas = getAreas();
+    let areaNames = [];
 
-      } else {
-        window.alert(`${serviceType} is available in ${area.name}`);
+    // Find the clicked service
+    const clickedService = services.find(service => service.type === serviceType);
+
+    // Check if service.areaId is an array or single number
+    if (Array.isArray(clickedService.areaId)) {
+      // Handle multiple areas
+      for (const area of areas) {
+        if (clickedService.areaId.includes(area.id)) {
+          areaNames.push(area.name);
+        }
       }
-    break;
+    } else {
+      // Handle single area
+      const area = areas.find(area => area.id === clickedService.areaId);
+      areaNames.push(area.name);
     }
 
+    window.alert(`${serviceType} is available in ${areaNames.join(", ")}`);
   }
-}
-)
-
+});
 //FOR (LET I=O: I < AREA.ID; I++)
 //Array.PUSH(AREA)
