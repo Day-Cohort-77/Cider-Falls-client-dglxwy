@@ -1,4 +1,4 @@
-import { getServices } from "./database";
+import { getServices } from "./database,js";
 
 export const servicesList = () => {
   const services = getServices();

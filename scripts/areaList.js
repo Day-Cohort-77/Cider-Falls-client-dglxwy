@@ -1,15 +1,16 @@
-import { getAreas } from "./database";
+import { getAreas } from "./database.js";
 
 export const areasList = () => {
   const areas = getAreas();
-  let areasHTML = "<ul>";
+  let areasHTML = "<ul id = 'areaList'>";
 
-  for (const area of area) {
+  for (const area of areas) {
+   areasHTML +=
     `<li 
             data-id = "${area.id}"
             data-type = "area"
             data-location = "${area.location}"
-            >
+           class="area" >
                 ${area.name}
         </li>`;
   }

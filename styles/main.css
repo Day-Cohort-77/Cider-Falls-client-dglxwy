@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://cdn.shopify.com/s/files/1/2236/1557/files/AB_Beginner_2.jpg?v=1647550239");
+    background-repeat: no-repeat;
+    background-size: cover;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+header {
+    border: 2px solid #e01818;
+    border-width: 100%;
+   
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif font-size: 75 px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("https://cdn.webshopapp.com/shops/277113/themes/156041/assets/wood-types.jpg?20250604110149");
+   
+
+
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+
+
+}
+h1 {
+    font-size: 105px;
+    color: #48a60e;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-right: 30%;
+    margin-top: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;  
+    padding: 2px;
+    border-image:url("https://www.ppic.org/wp-content/uploads/2021/09/close-up-of-redwood-burl-wood-grain-texture-1.jpg") 30px;
+}
+h2 {
+    margin-left: 30%;
+    font-size: 75px;
+    color: #e01818;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+h3 {
+    font-size: 50px;
+    color: #e01818;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 20px;
+    color: #e01818;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border: #e01818 2px solid;
+    border-radius: 10px;
+    background-image:url("https://cdn.webshopapp.com/shops/277113/themes/156041/assets/wood-types.jpg?20250604110149");
+    padding: 20px;
+}
