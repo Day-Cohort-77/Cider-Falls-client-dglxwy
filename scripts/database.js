@@ -48,7 +48,7 @@ const database = {
     { id: 4, name: "Diana Prince", areaId: 3 },
     { id: 5, name: "Ethan Brown", areaId: 4 },
     { id: 6, name: "Fiona Davis", areaId: 6 },
-    { id: 7, name: "George Miller", areaId: 2 },
+    { id: 7, name: "George Miller", areaId: 1 },
     { id: 8, name: "Hannah Wilson", areaId: 1 },
     { id: 9, name: "Ian Clark", areaId: 3 },
     { id: 10, name: "Julia Adams", areaId: 5 },
