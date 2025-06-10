@@ -66,52 +66,52 @@ const database = {
   services: [
     {
       id: 1,
-      type: "rafting",
+      type: "Rafting",
       areaId: 1,
     },
     {
       id: 2,
-      type: "canoeing",
+      type: "Canoeing",
       areaId: 1,
     },
     {
       id: 3,
-      type: "fishing",
+      type: "Fishing",
       areaId: [1, 4],
     },
     {
       id: 4,
-      type: "hiking",
+      type: "Hiking",
       areaId: [2, 4, 6],
     },
     {
       id: 5,
-      type: "picnicking",
+      type: "Picnicking",
       areaId: [2, 3, 6],
     },
     {
       id: 6,
-      type: "rock climbing",
+      type: "Rock Climbing",
       areaId: 2,
     },
     {
       id: 7,
-      type: "lodging",
+      type: "Lodging",
       areaId: [3, 5],
     },
     {
       id: 8,
-      type: "parking",
+      type: "Parking",
       areaId: [3, 5],
     },
     {
       id: 9,
-      type: "information",
+      type: "Information",
       areaId: [3, 5],
     },
     {
       id: 10,
-      type: "zip lines",
+      type: "Zip Lines",
       areaId: 6,
     },
   ],
