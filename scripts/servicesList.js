@@ -3,20 +3,20 @@ import { getAreas } from "./database.js";
 
 export const servicesList = () => {
   const services = getServices();
-  let servicesHTML = "<ul>";
+  let servicesHTML = "<section >"
 
   for (const service of services) {
-    servicesHTML += `<li 
+    servicesHTML += `<div class="servicesx"
             data-id = "${service.id}"
             data-type = "service"
             data-areaId = "${service.areaId}"
             data-service = "${service.type}"
             >
                 ${service.type}
-        </li>`;
+        </div>`;
   }
 
-  servicesHTML += "</ul>";
+  servicesHTML += "</section>";
 
   return servicesHTML;
 };

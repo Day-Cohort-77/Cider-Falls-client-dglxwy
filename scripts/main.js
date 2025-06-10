@@ -6,19 +6,19 @@ const mainAreaGrid = document.querySelector("#area");
 const mainGuests = document.querySelector("#guest");
 const mainServices = document.querySelector("#services");
 const areaHTML = `
-<h2>Areas</h2>
+<h2>AREAS</h2>
 <article class="details">
     <section class="areaList">
         ${areasList()}
     </section>`
 const guestHtml = `
     <section class="guestList">
-        <h3>Guests</h2>
+        <h3>GUESTS</h2>
         ${guestList()}
     </section>`;
 const serviceHTML = `
 <h4>Services</h4>
-<article class="details">
+<article class="details2">
     <section class="servicesList">
         ${servicesList()}
     </section>

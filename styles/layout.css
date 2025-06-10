@@ -13,49 +13,82 @@
     margin-right: 30%;
     width: 100%;
     height: 100vh;
-
+    
 }
 
 #areaList {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
-    width: 60%;
-    height: 100%;
+    gap: 120px;
+    max-width: 70%;
+    height: 535px;
     margin-left: 50px;
-
-
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    color:  #ffec6f;
+     text-shadow: 5px 5px #49a669;
+    font-weight: bold;
+    background-image: url("https://cdn.securem2.com/commonimages/pages/2022/3/splitrockfalls0.jpg");
+    background-size: cover;
+    border: groove #a85503 15px;
+ 
 }
 
+
 .area {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #e01818;
-    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+   
     margin-left: 50px;
-    background-color: #f0f0f0;
+  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #guestList {
-    border: 2px solid #e01818;
+    border: 2px solid #42bc00;
     background-color: antiquewhite;
     margin-right: 50px;
-    width: 235px;
-    height: 100%;
-
-
+    margin-bottom: 150px;
+    width: 335px;
+    height: 535px;
+    background-image: url("https://thumbs.dreamstime.com/b/old-rustic-wooden-background-color-stripes-light-orange-dark-navy-stock-image-features-old-reclaimed-wood-wall-279889728.jpg");
+    background-size: fill;
+    
+    border: groove #a85503 15px;
 
 }
 
 .guest {
-    font-size: 15px;
-    color: #e01818;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color:  #ffec6f;
+    text-shadow: 3px 3px #49a669;
+    font-family:"League Spartan", sans-serif;
     font-weight: bold;
-    margin-right: 10%;
+}
+ #services{  
+    display: flex;
+    flex-direction: row;  /* keeps items horizontal */
+    flex-wrap: wrap;
+    align-items: center; /* aligns items from the start */
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 1px;
+  background-image: url("https://cdn.webshopapp.com/shops/277113/themes/156041/assets/wood-types.jpg?20250604110149");
+}
 
+.servicesx {
+    padding: 10px 25px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    display: inline-block;  /* makes items flow horizontally */
+    min-width: fit-content;
+    text-align: center;  /* Center the text */
+    white-space: nowrap;
+    font-family: "luckiest guy", sans-serif;
+    font-size: 15px;
+    
 }

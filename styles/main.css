@@ -1,73 +1,97 @@
 body {
-  background-image: url("https://cdn.shopify.com/s/files/1/2236/1557/files/AB_Beginner_2.jpg?v=1647550239");
+    background-image: url("https://wallpapers.com/images/hd/outdoor-background-11ym79o7xfw9gp86.jpg");
     background-repeat: no-repeat;
-    background-size: cover;  
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #333;
     margin: 0;
     padding: 20px;
+    border: groove #a85503 15px;
 }
-
-
-
 header {
-    border: 2px solid #e01818;
-    border-width: 100%;
-   
+    border-top: groove #a85503 15px;
+    border-left: ridge #a85503 15px;
+    border-right: ridge #a85503 15px;
+    border-bottom: groove #a85503 15px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif font-size: 75 px;
+    font-family: font-family: "Hanalei", system-ui;
     font-weight: bold;
     text-align: center;
-    background-image: url("https://cdn.webshopapp.com/shops/277113/themes/156041/assets/wood-types.jpg?20250604110149");
-   
-
-
+    background-image: url("https://assets.vogue.com/photos/6383ae89831db0d9b441451d/master/w_2560%2Cc_limit/GettyImages-909708218.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 .logo {
     width: 300px;
     height: 300px;
-
-
 }
 h1 {
-    font-size: 105px;
-    color: #48a60e;
-    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
-    margin-right: 30%;
-    margin-top: 5%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;  
-    padding: 2px;
-    border-image:url("https://www.ppic.org/wp-content/uploads/2021/09/close-up-of-redwood-burl-wood-grain-texture-1.jpg") 30px;
+    font-size: 75px;
+    color: #c1ff72;
+    text-shadow: 5px 5px #49a669;
+    margin-right: 10%;
+    margin-top: 4%;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-bottom: 7px solid #ffec6f;
+    border-top: 7px solid #ffec6f;
 }
 h2 {
     margin-left: 30%;
     font-size: 75px;
-    color: #e01818;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #c1ff72;
+    text-shadow: 5px 5px #49a669;
+    font-family: "League Spartan", sans-serif;
     font-weight: bold;
 }
+
 h3 {
     font-size: 50px;
-    color: #e01818;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    color: #c1ff72;
+    text-shadow: 5px 5px #49a669;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+}
+h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    padding: 10px 25px;
+    background-color: #f0f0f0;
+    font-family: "luckiest guy", sans-serif;
+}
+h5 {
+    font-size: 30px;
+    color: #c1ff72;
+    text-shadow: 3px 3px #49a669;
+    font-family: "League Spartan", sans-serif;
     font-weight: bold;
 }
 
 footer {
     font-size: 20px;
-    color: #e01818;
+    color: #c1ff72;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "luckiest guy", sans-serif;
     font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
+    text-align: right;
+    height: 160px;
     border: #e01818 2px solid;
     border-radius: 10px;
-    background-image:url("https://cdn.webshopapp.com/shops/277113/themes/156041/assets/wood-types.jpg?20250604110149");
+    background-image: url("/B2.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 20px;
+    margin-bottom: 50px;
+    border: groove #a85503 15px;
 }
